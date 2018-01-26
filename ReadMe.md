@@ -2,6 +2,7 @@
 
 
 Hello I am Christopher
-I am retired and repurposing my life.
-I love horseback riding
++ I am retired and repurposing my life.
++ I love horseback riding
++ I am an awesome coder
 http://www.twitter.com/CHANEYspeaks
