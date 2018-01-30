@@ -18,7 +18,15 @@ https://github.com/CHANEYspeaks
 
 
 
-
+</h3>
+<ul>
+  <li class="factoid"><a href="index.html.">Home</a></li>
+  <li class="factoid"><a href="projects/index.html.">Projects</a></li>
+  <li class="factoid"><a href="media/index.html.">Media</a>
+  <li class="factoid"><a href="exercises/index.html.">Exercises</a></a>
+  </li>
+</ul>
+<hr />
 
 
 
