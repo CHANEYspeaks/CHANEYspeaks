@@ -17,7 +17,6 @@ https://github.com/CHANEYspeaks
 [Twitter: @CHANEYspeaks](https://twitter.com/CHANEYspeaks)
 
 
-
 </h3>
 <ul>
   <li class="factoid"><a href="index.html.">Home</a></li>
