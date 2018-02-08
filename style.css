@@ -1,0 +1,29 @@
+
+.container {
+max-width: 960px;
+  margin: 0 auto;
+  background-color: grey;
+  font-size: 18px
+  padding 12px;
+  /* width: 70%;
+  height: 180px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-left: 125px; */
+}
+div{
+  padding: 10px 10px 10px 10px
+}
+html {
+  box-sizing: border-box;
+}
+#container2{
+  width: 400px
+  margin: auto;
+}
+.nagivation a{
+margin: 14px;
+}
+img#picture{
+   box-shadow: 5px 10px;
+}
