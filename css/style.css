@@ -22,8 +22,9 @@ html {
   margin: auto;
 }
 .nagivation a{
-margin: 14px;
+margin: 20px;
+
 }
-img#picture{
-   box-shadow: 5px 10px;
+.navbar{
+  background-color: yellow;
 }

@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="../style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <!-- for your landing page -->
-  <link type="text/css" rel="stylesheet" href="css/style.css"/>
-
-  <!-- for all other pages -->
-  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
-
+  <title>Blog | Web Developer </title>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
 </head>
+
 <body>
+  <div class="nagivation">
+
+
+<center>
   <nav>
-    <center>
-      <h3>
-  <a href="Home">Home</a>
-  <a href="projects/index.html">Projects</a>
-  <a href="media/index.html">Media</a>
-  <a href="mailto:CHANEYspeaks@gmail.com?Subject=Contact%20Form">Contact Me</a>
-</h3>
-</center>
-</nav>
+    <a href="../index.html">Home</a> |
+  <a href="../projects/index.html">Projects</a> |
+  <a href="../media/index.html">Media</a> |
+  <a href="../blog/index.html">Blog</a> |
+  <a class="navbar" href="../contact/index.html">Contact Me</a>
+   <!-- <a href="./index.html">Home</a>
+   <a href="projects/index.html">Projects</a>
+   <a href="media/index.html">Media</a>
+   <a class="navbar" href="blog/index.html">Blog</a> -->
+ </nav>
+ <br>
 <!--
 The action attribute defines where on the server the form data should be sent
 The method attribute specifies the HTTP method (GET or POST)
@@ -40,7 +43,7 @@ The method attribute specifies the HTTP method (GET or POST)
   <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
   <input type="radio" name="subject" value="other" checked><span>Don't know/something else</span>
 </label>
-
+<br>
 <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
 <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
 
@@ -52,13 +55,16 @@ The method attribute specifies the HTTP method (GET or POST)
     <option value="search">Search Engine</option>
     <option value="email">Email</option>
   </optgroup>
+  <br>
   <optgroup label="In-Person">
     <option value="networking">We met at a networking event</option>
     <option value="referral">Personal referral</option>
     <option value="random">We met somewhere else</option>
   </optgroup>
+  <br>
   <option value="other">Other</option>
 </select>
+<br>
 
 <textarea name="user_message" rows="8" cols="40"></textarea>
 <input type="submit">
