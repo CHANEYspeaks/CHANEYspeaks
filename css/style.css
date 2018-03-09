@@ -2,7 +2,7 @@
 .container {
 max-width: 960px;
   margin: 0 auto;
-  background-color: grey;
+  background-color: white;
   font-size: 18px
   padding 12px;
   /* width: 70%;
@@ -10,12 +10,31 @@ max-width: 960px;
   overflow-x: auto;
   overflow-y: hidden;
   margin-left: 125px; */
-}
+/* }
 div{
   padding: 10px 10px 10px 10px
 }
+
 html {
   box-sizing: border-box;
+} */
+
+#brand {
+  font-family: "Open Sans";
+}
+
+}
+body{
+  background-color: white;
+  font-size: 120%;
+  font-family: "Open Sans";
+}
+.wrapper{
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 25px;
+
 }
 #container2{
   width: 400px
@@ -30,5 +49,16 @@ margin: 20px;
 }
 .bottom{
 
+}
+.highlighted{
+  background-color:red;
+  Width: 30%;
+}
+#hight{
+  width: 30%;
+  height: 25px;
+}
+.footerend{
+  text-align: center;
 }
 /* <p class="bottom">© 2018 | CHANEYspeaks, Inc.</p> */

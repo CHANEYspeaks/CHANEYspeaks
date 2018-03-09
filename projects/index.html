@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <link type="text/css" rel="stylesheet" href="../css/style.css"/>
 
   <title>Projects</title>
@@ -22,18 +23,95 @@
 </center>
 </nav>
 </div>
-<h2>
+<h4>
 <ol>
-  <li>
+
+
+  <li class="hight">
   <a href="https://twp2studentshowcase.netlify.com/">Class Showcase</a>
   </li>
-  <li>
+  <li class="hight">
   <a href="./CYOA/index.html">Choose Your Own Adventure</a>
   </li>
-  <li>Web Store Hack-A-Thon</li>
+  <li class="hight">Web Store Hack-A-Thon</li>
 </ol>
-</h2>
+</h4>
 
+<script>
+// $('li').on('mouseover', () => {
+// $('li').addClass('highlighted')
+// })
+// $('li').on('mouseleave', () => {
+// $('li').removeClass('highlighted')
+// })
+
+$('li').on('mouseover', function highlight(){ // notice: no arrow function!
+  $(this).addClass('highlighted')
+})
+$('li').on('mouseleave', function highlight(){
+  $(this).removeClass('highlighted')
+})
+
+$('#profile-pic').on('click', () => {
+  $('#hidden-blurb').slideDown(); // only works if #hidden-blurb has display:none; in its CSS
+});
+
+
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+  <div class="footerend">
+   <a href="https://www.CHANEYspeaks.com">Website</a> |
+
+   <a href="https://www.twitter.com/CHANEYspeaks">Twitter</a> |
+
+   <a href="mailto:CHANEYspeaks@gmail.com">Email</a> |
+
+   <a href="tel:423-781-1555">Phone Number</a> |
+
+  <br>
+  <br>
+  <br>
+
+  <center>
+    <footer text-align center>&copy; 2018 CHANEYspeaks, Inc.</footer>
+  </center>
+   </div>
 </body>
 </html>
 
